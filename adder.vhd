@@ -1,11 +1,12 @@
 entity adder is
 	port(
 		PC		: in bit_vector(7 downto 0);
-		B 		: in bit_vector(7 downto 0);
+		B 		: in bit_vector(7 downto 0) := "00000001";
 		--CarryIn	: in bit; tipo precisa mas na descrição não tem??? o que fazer?
-		Sum 	: out bit_vector(7 downto 0));
-end adder;
-
+		Sum 	: out bit_vector(7 downto 0)
+		);
+end entity;
+--como é a parte da observação e add PC?
 architecture comportamental of adder is
 	 	signal c : bit_vector(7 downto 0);
 begin
@@ -32,4 +33,5 @@ begin
 
 	a7 : entity work.adder1b(behavioral)
 	port map(PC(7),B(7),carry(6),c(7),Sum(7));
-end;
+
+end architecture;
