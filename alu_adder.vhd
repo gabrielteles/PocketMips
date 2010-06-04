@@ -1,3 +1,8 @@
+--Acadêmicos:
+--Cauan Gama
+--Gabriel Teles
+--Professor: Ricardo
+--Ciência da Computação - UFMS 
 entity alu_adder is
 	port(
 		A, B: in bit_vector(7 downto 0);

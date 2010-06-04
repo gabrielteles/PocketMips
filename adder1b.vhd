@@ -1,3 +1,8 @@
+--Acadêmicos:
+--Cauan Gama
+--Gabriel Teles
+--Professor: Ricardo
+--Ciência da Computação - UFMS 
 entity adder1b is
 	port(
 		A,B, cin: in bit;

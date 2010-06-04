@@ -1,3 +1,8 @@
+--Acadêmicos:
+--Cauan Gama
+--Gabriel Teles
+--Professor: Ricardo
+--Ciência da Computação - UFMS 
 entity AC is 
 end entity;
 

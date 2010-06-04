@@ -1,3 +1,8 @@
+--Acadêmicos:
+--Cauan Gama
+--Gabriel Teles
+--Professor: Ricardo
+--Ciência da Computação - UFMS 
 entity sign_extend is
 	port(
 		DataIn5 : in bit_vector(4 downto 0);
