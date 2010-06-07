@@ -3,8 +3,8 @@
 --Gabriel Teles
 --Professor: Ricardo
 --Ciência da Computação - UFMS 
-entity BC is 
+entity AC is 
 end entity;
-architecture comportamental of BC is
-begin
+
+architecture comportamental of AC is
 end architecture;

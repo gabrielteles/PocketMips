@@ -1,0 +1,31 @@
+1)
+1.b) Colocando IRWrite, Clk, e Data(saida da memória) na lista de sensibilidade e testar caso IRWrite='1'  e Clk estiver na borda de subida
+
+
+2)
+2.a)
+--zerando o Ac
+MTA R1
+SUB R1
+--jogando 6 no AC
+ADDI 6
+--jogo o AC no R2 para poder comparar depois
+MFA R2 
+--zerando o Ac
+MTA R1
+SUB R1
+--como fazer o devio incondicional aqui????/
+MTA R1
+ADDI 1
+MFA R1
+ADDI 5
+BEQ R2,R1
+
+3)
+3.a)
+seria especializando a BEQ R0,R0 
+J R0 PC=R0(onde R0 tem o endereço do desvio).
+
+3.b)
+Sim fazendo como dito na 3.a BEQ R0,R0
+

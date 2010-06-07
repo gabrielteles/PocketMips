@@ -7,4 +7,5 @@ entity AC is
 end entity;
 
 architecture comportamental of AC is
+begin
 end architecture;

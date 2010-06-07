@@ -11,7 +11,7 @@ entity alu_adder is
 		);
 end entity;
 
-architecture behavioral of adder is
+architecture comportamental of adder is
 signal carry: bit_vector(7 downto 0);
 begin
 	m0: entity work.adder1b(comportamental)

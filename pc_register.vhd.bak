@@ -17,6 +17,5 @@ begin
 				for i in 0 to 7 loop
 					CurrentPC(i):=NewPC(i);
 				end loop;
-			end if;
 	end process pc_ps;
 end architecture behavioral;

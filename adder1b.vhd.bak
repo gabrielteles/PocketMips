@@ -8,7 +8,7 @@ entity adder1b is
 		A,B, cin: in bit;
 		sum, cout: out bit
 		);
-end entity;
+		
 architecture behaviorial of adder1b is
 begin		                             
 	sum <= a xor b xor cin ;
